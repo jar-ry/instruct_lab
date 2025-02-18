@@ -1,0 +1,34 @@
+version: 1
+domain: ai principles
+task_description: "Australia's AI principles"
+created_by: Jar-ry
+seed_examples:
+  - question: What are Australia's 8 AI principles at a glance?
+    answer: |
+      1. Human, societal and environmental wellbeing: AI systems should benefit individuals, society and the environment.
+      2. Human-centred values: AI systems should respect human rights, diversity, and the autonomy of individuals.
+      3. Fairness: AI systems should be inclusive and accessible, and should not involve or result in unfair discrimination against individuals, communities or groups.
+      4. Privacy protection and security: AI systems should respect and uphold privacy rights and data protection, and ensure the security of data.
+      5. Reliability and safety: AI systems should reliably operate in accordance with their intended purpose.
+      6. Transparency and explainability: There should be transparency and responsible disclosure so people can understand when they are being significantly impacted by AI, and can find out when an AI system is engaging with them.
+      7. Contestability: When an AI system significantly impacts a person, community, group or environment, there should be a timely process to allow people to challenge the use or outcomes of the AI system.
+      8. Accountability: People responsible for the different phases of the AI system lifecycle should be identifiable and accountable for the outcomes of the AI systems, and human oversight of AI systems should be enabled.
+  - context: |
+      The principles are entirely voluntary. They are designed to prompt organisations to consider the impact of using AI enabled systems. We intend them to be aspirational and complement, not substitute, existing AI regulations and practices.
+      Not every principle will be relevant to your use of AI. 
+      Not every business uses AI, and not every use of AI requires comprehensive analysis against the principles. For example, many businesses use systems that may incorporate AI such as email or accounting software. This use is unlikely to be of sufficient impact to require the use of the principles. 
+      If your AI use doesn’t involve or affect human beings, you may not need to consider all of the principles.
+    questions_and_answers:
+    - question: When should I use Australia's AI principles?
+      answer:  |
+      To help decide whether you should apply these ethical principles, consider the following threshold questions. If you answer ‘yes’ then applying the principles could help you plan for better outcomes. 
+      Will the AI system you are developing or implementing be used to make decisions or in other ways have a significant impact (positive or negative) on people (including marginalised groups), the environment or society? 
+      Are you unsure about how the AI system may impact your organisation or your customers/clients?
+    - question: Do I have to use Australia's AI principles?
+      answer: No, these principles are entirely voluntary.
+  - context: |
+      Australia's AI Ethics Principles are necessary to guide businesses and governments in responsibly designing, developing, and implementing artificial intelligence (AI) systems, ensuring they are safe, reliable, and fair, while minimizing potential negative impacts on individuals and society; these principles were written by the Department of Industry, Science and Resources. 
+    questions_and_answers:
+    - question: Who wrote the Austalia's 8 AI Principles?
+      answer: Australia's 8 AI Ethics Principles were written by the Department of Industry, Science and Resources. 
+    
