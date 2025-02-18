@@ -17,11 +17,11 @@ seed_examples:
       The principles are entirely voluntary. They are designed to prompt organisations to consider the impact of using AI enabled systems. We intend them to be aspirational and complement, not substitute, existing AI regulations and practices.
       Not every principle will be relevant to your use of AI. 
       Not every business uses AI, and not every use of AI requires comprehensive analysis against the principles. For example, many businesses use systems that may incorporate AI such as email or accounting software. This use is unlikely to be of sufficient impact to require the use of the principles. 
-      If your AI use doesn’t involve or affect human beings, you may not need to consider all of the principles.
+      If your AI use doesn't involve or affect human beings, you may not need to consider all of the principles.
     questions_and_answers:
     - question: When should I use Australia's AI principles?
-      answer:  |
-      To help decide whether you should apply these ethical principles, consider the following threshold questions. If you answer ‘yes’ then applying the principles could help you plan for better outcomes. 
+      answer: |
+      To help decide whether you should apply these ethical principles, consider the following threshold questions. If you answer 'yes' then applying the principles could help you plan for better outcomes. 
       Will the AI system you are developing or implementing be used to make decisions or in other ways have a significant impact (positive or negative) on people (including marginalised groups), the environment or society? 
       Are you unsure about how the AI system may impact your organisation or your customers/clients?
     - question: Do I have to use Australia's AI principles?
