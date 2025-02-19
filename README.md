@@ -24,22 +24,15 @@ wget https://repo.continuum.io/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 bash Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
 
-
-Install venv and pip
+CD into Directory
 ```
-sudo apt install python3-pip
-sudo apt install python3.12-venv
+cd instruct_lab
 ```
 
-Use venv
+Use conda
 ```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-Install ILab
-```
-pip3 install instructlab
+conda env create --file=conda.yml
+conda activate ilab_env
 ```
 
 Init ILab
@@ -51,7 +44,6 @@ Download model
 ```
 ilab download
 ```
-
 
 Serve Model
 ```
