@@ -18,6 +18,13 @@ Get nvtop
 sudo apt-get install nvtop
 ```
 
+Install Conda
+```
+wget https://repo.continuum.io/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+bash Anaconda3-2024.10-1-Linux-x86_64.sh
+```
+
+
 Install venv and pip
 ```
 sudo apt install python3-pip
