@@ -23,28 +23,31 @@ seed_examples:
       - question: |
           Explain the princple "Human, social and environmental wellbeing"
         answer: |
-          This principle aims to clearly indicate from the outset that AI systems should be used for beneficial outcomes for
-          individuals, society and the environment. AI system objectives should be clearly identified and justified. AI systems
-          that help address areas of global concern should be encouraged, like the United Nation’s Sustainable Development Goals.
+          This principle aims to clearly indicate from the outset that AI systems should be used for beneficial outcomes
+          for individuals, society and the environment. AI system objectives should be clearly identified and justified.
+          AI systems that help address areas of global concern should be encouraged, like the United Nation’s
+          Sustainable Development Goals.
           Ideally, AI systems should be used to benefit all human beings, including future generations.
-          AI systems designed for legitimate internal business purposes, like increasing efficiency, can have broader
-          impacts on individual, social and environmental wellbeing. Those impacts, both positive and negative, should be
-          accounted for throughout the AI system’s lifecycle, including impacts outside the organisation.
+          AI systems designed for legitimate internal business purposes, like increasing efficiency, can have
+          broader impacts on individual, social and environmental wellbeing. Those impacts, both positive and
+          negative, should be accounted for throughout the AI system’s lifecycle, including impacts outside
+          the organisation.
       - question: |
           Explain the princple "Contestability"
         answer: |
-          This principle aims to ensure the provision of efficient, accessible mechanisms that allow people to challenge the
-          use or output of an AI system, when that AI system significantly impacts a person, community, group or environment.
-          The definition of the threshold for ‘significant impact’ will depend on the context, impact and application of the
-          AI system in question.
+          This principle aims to ensure the provision of efficient, accessible mechanisms that allow people to
+          challenge the use or output of an AI system, when that AI system significantly impacts a person,
+          community, group or environment. The definition of the threshold for ‘significant impact’ will depend
+          on the context, impact and application of the AI system in question.
           Knowing that redress for harm is possible, when things go wrong, is key to ensuring public trust in AI.
           Particular attention should be paid to vulnerable persons or groups.
           There should be sufficient access to the information available to the algorithm, and inferences drawn,
           to make contestability effective. In the case of decisions significantly affecting rights,
           there should be an effective system of oversight, which makes appropriate use of human judgment.
   - context: |
-      The principles are entirely voluntary. They are designed to prompt organisations to consider the impact of using
-      AI enabled systems. We intend them to be aspirational and complement, not substitute, existing AI regulations and practices.
+      The principles are entirely voluntary. They are designed to prompt organisations to consider the impact
+      of using AI enabled systems. We intend them to be aspirational and complement, not substitute, existing
+      AI regulations and practices.
       Not every principle will be relevant to your use of AI.
       Not every business uses AI, and not every use of AI requires comprehensive analysis against the principles.
       For example, many businesses use systems that may incorporate AI such as email or accounting software.
@@ -54,9 +57,11 @@ seed_examples:
       - question: |
           When should I use Australia's AI principles?
         answer: |
-          To help decide whether you should apply these ethical principles, consider the following threshold questions.
-          If you answer 'yes' then applying the principles could help you plan for better outcomes.
-          Will the AI system you are developing or implementing be used to make decisions or in other ways have a significant
+          To help decide whether you should apply these ethical principles, consider the following
+          threshold questions. If you answer 'yes' then applying the principles could help you plan
+          for better outcomes.
+          Will the AI system you are developing or implementing be used to make decisions or in other ways
+          have a significant
           impact (positive or negative) on people (including marginalised groups), the environment or society?
           Are you unsure about how the AI system may impact your organisation or your customers/clients?
       - question: |
