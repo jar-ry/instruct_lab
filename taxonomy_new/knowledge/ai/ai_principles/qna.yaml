@@ -18,7 +18,7 @@ seed_examples:
           Explain the princple "Human, social and environmental wellbeing"
         answer: |
           This principle aims to clearly indicate from the outset that AI systems should be used for beneficial outcomes for individuals, society and the environment. AI system objectives should be clearly identified and justified. AI systems that help address areas of global concern should be encouraged, like the United Nation’s Sustainable Development Goals. Ideally, AI systems should be used to benefit all human beings, including future generations.
-        AI systems designed for legitimate internal business purposes, like increasing efficiency, can have broader impacts on individual, social and environmental wellbeing. Those impacts, both positive and negative, should be accounted for throughout the AI system’s lifecycle, including impacts outside the organisation.
+          AI systems designed for legitimate internal business purposes, like increasing efficiency, can have broader impacts on individual, social and environmental wellbeing. Those impacts, both positive and negative, should be accounted for throughout the AI system’s lifecycle, including impacts outside the organisation.
       - question: |
           Explain the princple "Contestability"
         answer: |
