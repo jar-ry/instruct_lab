@@ -3,3 +3,5 @@ channels:
   - default
 dependencies:
   - python=3.11.9
+  - pip:
+    - instructlab==0.24.0
