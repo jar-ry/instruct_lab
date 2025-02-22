@@ -37,23 +37,23 @@ conda activate ilab_env
 
 Init ILab
 ```
-ilab init
+ilab config init
 ```
 
 Download model
 ```
-ilab download
+ilab model download -rp --filename merlinite-7b-lab-Q4_K_M.gguf
 ```
 
 Serve Model
 ```
- ilab serve --model-family merlinite --model-path ./models/merlinite-7b-lab-Q4_K_M.gguf
+ ilab serve --model-family merlinite --model-path ~/.cache/instructlab/models/merlinite-7b-lab-GGUF/merlinite-7b-lab-Q4_K_M.gguf
 ```
 
 ## Usage of repo
 Since the taxonomy already exists we only need to download the model
 ```
-ilab download
+ilab model download -rp --filename merlinite-7b-lab-Q4_K_M.gguf
 ```
 
 ## Before tuning the model
@@ -67,6 +67,9 @@ What the model thinks the principles published by Australia's Department of Indu
 
 ## Tuning the model
 ```
+cp -r taxonomy_new/knowledge/ai ~/.local/share/instructlab/taxonomy/kno
+wledge
 
+ilab data generate --model models/merlinite-7b-lab-Q4_K_M.gguf  --pipeline simple
 ```
 
