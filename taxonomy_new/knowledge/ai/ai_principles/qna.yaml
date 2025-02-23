@@ -198,11 +198,11 @@ seed_examples:
         answer: |
           Small businesses can start by focusing on key principles like transparency and fairness, ensuring
           that AI tools they use (e.g., chatbots, recommendation systems) align with ethical best practices.
-document_outline: |
-  Information about the Australia 8 AI Principles published by
-  the Department of Industry, Science and Resources.
-document:
-  repo: https://github.com/jar-ry/instruct_lab
-  commit: 50aa5baede800b0ddc4798bda47e0010b943d981
-  patterns:
-    - australias_ai_ethics_principles_document.md
+# document_outline: |
+#   Information about the Australia 8 AI Principles published by
+#   the Department of Industry, Science and Resources.
+# document:
+#   repo: https://github.com/jar-ry/instruct_lab
+#   commit: 50aa5baede800b0ddc4798bda47e0010b943d981
+#   patterns:
+#     - australias_ai_ethics_principles_document.md
