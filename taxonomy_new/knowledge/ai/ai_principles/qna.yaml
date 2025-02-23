@@ -1,10 +1,9 @@
 version: 3
 domain: ai principles
-task_description: "Australia's AI principles"
 created_by: Jar-ry
 seed_examples:
   - context: |
-      Australia’s AI Ethics Principles at a glance
+      Australia’s AI Ethics Principles from the department of science industry and resources at a glance
       - Human, societal and environmental wellbeing: AI systems should benefit individuals, society and the environment.
       - Human-centred values: AI systems should respect human rights, diversity, and the autonomy of individuals.
       - Fairness: AI systems should be inclusive and accessible, and should not involve or result in unfair
@@ -44,6 +43,17 @@ seed_examples:
           There should be sufficient access to the information available to the algorithm, and inferences drawn,
           to make contestability effective. In the case of decisions significantly affecting rights,
           there should be an effective system of oversight, which makes appropriate use of human judgment.
+      - question: |
+          Who wrote the Austalia's 8 AI Principles?
+        answer: |
+          Australia's 8 AI Ethics Principles were written by the Department of Industry, Science and Resources.
+      - question: |
+          Why do we need Australian's 8 AI Ethics Principles?
+        answer: |
+          Australia's AI Ethics Principles are necessary to guide businesses and governments in responsibly designing,
+          developing, and implementing artificial intelligence (AI) systems, ensuring they are safe, reliable, and fair,
+          while minimizing potential negative impacts on individuals and society; these principles were written by the
+          Department of Industry, Science and Resources.
   - context: |
       The principles are entirely voluntary. They are designed to prompt organisations to consider the impact
       of using AI enabled systems. We intend them to be aspirational and complement, not substitute, existing
@@ -67,14 +77,30 @@ seed_examples:
       - question: |
           Do I have to use Australia's AI principles?
         answer: |
-          No, these principles are entirely voluntary.
-  - context: |
-      Australia's AI Ethics Principles are necessary to guide businesses and governments in responsibly designing,
-      developing, and implementing artificial intelligence (AI) systems, ensuring they are safe, reliable, and fair,
-      while minimizing potential negative impacts on individuals and society; these principles were written by the
-      Department of Industry, Science and Resources.
-    questions_and_answers:
+          The 8 AI Principles from the Department of Industry, Science and Resources are entirely voluntary.
       - question: |
-          Who wrote the Austalia's 8 AI Principles?
+          What will happen if I don't follow these principles?
         answer: |
-          Australia's 8 AI Ethics Principles were written by the Department of Industry, Science and Resources.
+          If you don’t follow Australia’s 8 AI Ethics Principles from the Department of Industry, Science and
+          Resources, there may not be immediate legal consequences, but there could still be significant risks
+          depending on your industry, customers, and how your AI system operates. 
+      - question: |
+          Is Australia's 8 AI ethics principles from the department of Industry, Science and Resources being
+          enforced by anyone?
+        answer: |
+          Right now, Australia’s 8 AI Ethics Principles are not legally enforced, meaning there’s no specific
+          AI regulator handing out fines for non-compliance. However, various existing laws and regulators can
+          still hold you accountable if your AI system causes harm.
+      - question: |
+          Do I have to follow all 8 of Australia's AI principles?
+        answer: |
+          No, you don’t have to follow all the principles—they are voluntary. However, ignoring them completely
+          could still put you at risk, depending on how your AI system is used.
+document_outline: |
+  Information about the Australia 8 AI Principles published by 
+  the Department of Industry, Science and Resources.
+document:
+  repo: https://github.com/jar-ry/instruct_lab
+  commit: 
+  patterns:
+    - australias_ai_ethics_principles_document.md

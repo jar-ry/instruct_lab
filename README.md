@@ -67,9 +67,8 @@ What the model thinks the principles published by Australia's Department of Indu
 
 ## Tuning the model
 ```
-cp -r taxonomy_new/knowledge/ai ~/.local/share/instructlab/taxonomy/kno
-wledge
+cp -r taxonomy_new/knowledge/ai ~/.local/share/instructlab/taxonomy/knowledge
 
-ilab data generate --model models/merlinite-7b-lab-Q4_K_M.gguf  --pipeline simple
+ilab data generate --model ~/.cache/instructlab/models/merlinite-7b-lab-GGUF/merlinite-7b-lab-Q4_K_M.gguf  --pipeline simple
 ```
 
